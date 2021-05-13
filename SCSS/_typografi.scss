@@ -1,0 +1,87 @@
+/* || Header */
+.header {
+  font-family: $Font-seconday;
+
+  &__link {
+    &:hover {
+      font-weight: bold;
+    }
+  }
+}
+
+/* || hero */
+
+.hero {
+  font-family: $Font-seconday;
+  text-align: center;
+
+  &__heading {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  &__text {
+    line-height: 1.3rem;
+    font-size: 0.9rem;
+  }
+
+  @media only screen and (min-width: 37.5em) {
+    &__heading {
+      font-size: 2.3rem;
+      line-height: 3.5rem;
+    }
+
+    &__text {
+      font-size: 1.2rem;
+      line-height: 1.8rem;
+    }
+  }
+}
+
+/* || Cons */
+
+.cons {
+  text-align: left;
+
+  &__heading {
+    font-size: 1rem;
+  }
+}
+
+/* || Subscription */
+.subscription {
+  &__heading {
+    font-size: 1.1rem;
+  }
+  &__text {
+    font-size: 0.79rem;
+  }
+
+  &__error {
+    color: $Color-error;
+    font-size: 0.75rem;
+  }
+  @media only screen and (min-width: 50em) {
+    &__heading {
+      font-size: 1.5rem;
+    }
+
+    &__text {
+      max-width: 37.6875rem;
+      margin: 0 auto;
+    }
+
+    &__error {
+      text-align: left;
+      padding-left: 4rem;
+    }
+  }
+}
+
+/* || Footer */
+
+.footer {
+  &__social-icon {
+    font-size: 1.1rem;
+  }
+}

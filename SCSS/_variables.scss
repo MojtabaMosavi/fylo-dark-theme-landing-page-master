@@ -1,0 +1,17 @@
+/* || color  */
+$Color-bg-primary: hsl(217, 28%, 15%);
+$Color-bg-secondary: hsl(218, 28%, 13%);
+$Color-Bg-footer: hsl(216, 53%, 9%);
+$Color-testimonial-Bg: hsl(219, 30%, 18%);
+$Color-call-to-action-gradient-from: hsl(176, 68%, 64%);
+$Color-call-to-action-gradient-to: hsl(198, 60%, 50%);
+$Color-error: hsl(0, 100%, 63%);
+$White: hsl(0, 0%, 100%);
+
+/* || Typografi  */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+$Font-size: 0.875rem;
+/* Headings, Call-to-actions, Header Navigation */
+$Font-seconday: "Raleway", sans-serif;
+$Font-body: "Open Sans", sans-serif;
